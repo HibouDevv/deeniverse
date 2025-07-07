@@ -82,8 +82,8 @@ const Navbar = () => {
             </a>
           </nav>
           <div className="flex items-center space-x-4">
-            <button className="bg-[#F08622] text-white font-semibold px-4 py-2 rounded-lg cursor-pointer">
-              Register
+            <button className="bg-[#F08622] text-white font-medium px-4 py-2 rounded-lg cursor-pointer">
+              Get started
             </button>
             <button
               className="md:hidden text-2xl"
