@@ -1,9 +1,12 @@
 import React from 'react'
 import Navbar from './Components/Navbar/Navbar'
+import Layout from './Layout/Layout'
 const App = () => {
   return (
    <> 
-    <Navbar/>
+   <Layout>
+     <Navbar/>
+   </Layout>
 
 
    </>
