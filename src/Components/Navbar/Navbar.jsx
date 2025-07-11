@@ -1,5 +1,6 @@
 import React, { useState } from "react";
 import logo from "../../assets/images/logo.svg"; // Adjust the path as necessary
+import Container from "../Layout/Container";
 
 const Navbar = () => {
   const [dropdownOpen, setDropdownOpen] = useState(false);
@@ -9,7 +10,9 @@ const Navbar = () => {
   return (
     <>
     {/* Header start */}
-      <header className="text-white flex justify-between items-center">
+   <Container>
+
+   <header className="text-white flex justify-between items-center">
         {/* Logo */}
         <img src={logo} alt="Quran Academy" className="w-[200px] h-[125px]" />
         {/* Navbar start */}
@@ -94,6 +97,8 @@ const Navbar = () => {
           </div>
         </div>
       </header>
+
+   </Container>
 
       {/* Sidebar for mobile */}
       <div
