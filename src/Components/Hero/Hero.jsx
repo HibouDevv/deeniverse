@@ -4,6 +4,7 @@ import FullWidth from '../Layout/FullWidth.jsx';
 import Container from '../Layout/Container.jsx';
 import heroImage from '../../assets/images/hero-grad.png';
 import HeaderImage from '../../assets/images/head-image.png';
+import Button from '../UI/Button.jsx';
 
 const Hero = () => {
   return (
@@ -30,22 +31,9 @@ const Hero = () => {
             </motion.h1>
 
             <div className="flex flex-col sm:flex-row gap-4 w-full sm:w-auto justify-center md:justify-start">
-              <motion.button
-                whileHover={{ scale: 1.05 }}
-                whileTap={{ scale: 0.95 }}
-                transition={{ type: 'spring', stiffness: 300 }}
-                className="bg-[#F08622] hover:bg-[#d97417] transition-colors duration-300 text-white font-semibold text-sm sm:text-base px-6 py-3 rounded-xl shadow-md hover:shadow-lg focus:outline-none focus:ring-2 focus:ring-[#F08622] focus:ring-offset-2"
-              >
-                Get Started
-              </motion.button>
-              <motion.button
-                whileHover={{ scale: 1.05 }}
-                whileTap={{ scale: 0.95 }}
-                transition={{ type: 'spring', stiffness: 300 }}
-                className="bg-[#F08622] hover:bg-[#d97417] transition-colors duration-300 text-white font-semibold text-sm sm:text-base px-6 py-3 rounded-xl shadow-md hover:shadow-lg focus:outline-none focus:ring-2 focus:ring-[#F08622] focus:ring-offset-2"
-              >
-                Learn More
-              </motion.button>
+                <Button>Get Started</Button>
+                <Button>Start Free Trial</Button>
+      
             </div>
           </motion.div>
 
