@@ -1,9 +1,10 @@
 import React, { useState } from "react";
 import { motion, AnimatePresence } from "framer-motion";
-import logo from "../../assets/images/logo.svg";
+import logo from "../../assets/images/logo.png";
 import Container from "../Layout/Container";
 
 const Navbar = () => {
+  // 
   const [dropdownOpen, setDropdownOpen] = useState(false);
   const [sidebarOpen, setSidebarOpen] = useState(false);
   const [sidebarDropdownOpen, setSidebarDropdownOpen] = useState(false);
@@ -26,12 +27,12 @@ const Navbar = () => {
           initial={{ opacity: 0, y: -20 }}
           animate={{ opacity: 1, y: 0 }}
           transition={{ duration: 0.5 }}
-          className="text-white flex justify-between items-center"
+          className="text-white flex justify-between items-center py-3"
         >
           <motion.img
             src={logo}
             alt="Quran Academy"
-            className="w-[200px] h-[125px]"
+            className="max-w-[60px] md:max-w-[100px] h-auto"
             initial={{ opacity: 0, scale: 0.8 }}
             animate={{ opacity: 1, scale: 1 }}
             transition={{ delay: 0.2 }}
@@ -91,14 +92,15 @@ const Navbar = () => {
               </div>
             </nav>
 
-            <motion.button
-              whileHover={{ scale: 1.05 }}
-              whileTap={{ scale: 0.95 }}
-              transition={{ type: "spring", stiffness: 300 }}
-              className="bg-[#F08622] hover:bg-[#d97417] transition-colors duration-300 text-white font-semibold text-sm sm:text-base px-6 py-3 rounded-xl shadow-md hover:shadow-lg focus:outline-none focus:ring-2 focus:ring-[#F08622] focus:ring-offset-2"
-            >
-              Get Started
-            </motion.button>
+<motion.button
+  whileHover={{ scale: 1.05 }}
+  whileTap={{ scale: 0.95 }}
+  transition={{ type: "spring", stiffness: 300 }}
+  className="bg-[#F08622] hover:bg-[#d97417] transition-colors duration-300 text-white font-semibold text-sm sm:text-base px-4 sm:px-6 py-2 sm:py-3 rounded-lg shadow-md hover:shadow-lg focus:outline-none focus:ring-2 focus:ring-[#F08622] focus:ring-offset-2 w-full sm:w-auto text-center hidden md:block"
+>
+  Get Started
+</motion.button>
+
 
             <button className="md:hidden text-2xl" onClick={() => setSidebarOpen(true)}>
               ☰
@@ -119,7 +121,7 @@ const Navbar = () => {
               className="fixed top-0 left-0 h-full w-64 bg-white text-[#182F51] z-50 md:hidden"
             >
               <div className="flex justify-between items-center p-4 border-b">
-                <img src={logo} alt="Quran Academy" className="w-32 h-20" />
+                <img src={logo} alt="Quran Academy" className="max-w-[30px]" />
                 <button
                   className="text-2xl"
                   onClick={() => setSidebarOpen(false)}
