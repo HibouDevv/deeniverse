@@ -1,0 +1,44 @@
+[
+  {
+    "id": 1,
+    "title": "Basic Qaida with Tajweed",
+    "description": "Learn Quranic alphabets and basic Tajweed rules for proper pronunciation.",
+    "image": "https://images.pexels.com/photos/3074209/pexels-photo-3074209.jpeg?_gl=1*y40771*_ga*MTM3MzA0OTI2LjE3NDkwMzc3ODY.*_ga_8JE65Q40S6*czE3NTI1OTg5OTEkbzEyJGcxJHQxNzUyNTk5MDQ3JGo0JGwwJGgw"
+  },
+  {
+    "id": 2,
+    "title": "Nazra Quran with Tajweed",
+    "description": "Fluently read the Holy Quran with correct Tajweed rules and pronunciation.",
+    "image": "https://i.ibb.co/4WY0x4n/tajweed-recitation.jpg"
+  },
+  {
+    "id": 3,
+    "title": "Masnoon Duas & Namaz",
+    "description": "Memorize essential daily duas and perfect your Salah with proper method.",
+    "image": "https://i.ibb.co/3z5Y0LJ/muslim-praying.jpg"
+  },
+  {
+    "id": 4,
+    "title": "Tajweed-ul-Quran",
+    "description": "Master advanced Tajweed rules for beautiful Quranic recitation.",
+    "image": "https://i.ibb.co/4WY0x4n/tajweed-recitation.jpg"
+  },
+  {
+    "id": 5,
+    "title": "Tarjuma Tul Quran",
+    "description": "Understand Quranic verses with accurate Urdu/English translation.",
+    "image": "https://i.ibb.co/0jQ3J0X/quran-translation.jpg"
+  },
+  {
+    "id": 6,
+    "title": "Tafsir-ul-Quran",
+    "description": "Learn detailed explanation and interpretation of Quranic verses.",
+    "image": "https://i.ibb.co/8Xq6v5z/tafsir-class.jpg"
+  },
+  {
+    "id": 7,
+    "title": "Fahm-Ul-Quran",
+    "description": "Develop deep understanding of Quranic teachings and messages.",
+    "image": "https://i.ibb.co/5KJ4z0G/quran-study-group.jpg"
+  }
+]
