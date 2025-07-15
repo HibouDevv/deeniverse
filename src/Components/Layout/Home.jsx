@@ -5,8 +5,8 @@ import LandingPageAboutUs from '../About us/LandingPageAboutUs'
 import LandingCoures from '../Our Courses/LandingCoures'
 import "slick-carousel/slick/slick.css"; 
 import "slick-carousel/slick/slick-theme.css";
-
-
+import Footer from '../Footer/Footer'
+import FaqSection from '../Faqs/FaqSection'
 const Home = () => {
   return (
     <div>
@@ -14,6 +14,9 @@ const Home = () => {
         <Hero/>
         <LandingPageAboutUs/>    
         <LandingCoures/>
+        <FaqSection/>
+        {/* Footer */}
+        <Footer />
         </div>
   )
 }
