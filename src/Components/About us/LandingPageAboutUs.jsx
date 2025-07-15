@@ -36,6 +36,8 @@ const LandingPageAboutUs = () => {
           <img src={AboutImage} alt="About Us" className="w-full h-auto" />
         </motion.div>
       </section>
+
+
     </Container>
   );
 };
