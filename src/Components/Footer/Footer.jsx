@@ -111,7 +111,7 @@ const Footer = () => {
 
         {/* Bottom Address */}
         <motion.div
-          className="mt-10 pt-6 border-t border-white/20 text-center text-sm"
+          className="mt-10 pt-6 border-t border -white/20 text-center text-sm"
           variants={fadeInUp}
           custom={4}
         >
