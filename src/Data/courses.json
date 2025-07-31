@@ -1,0 +1,156 @@
+[
+  {
+    "id": 1,
+    "title": "Basic Qaida with Tajweed",
+    "description": "Learn Quranic alphabets and basic Tajweed rules for proper pronunciation.",
+    "duration": "6 Weeks",
+    "level": "Beginner",
+    "format": "Online Live",
+    "language": "Urdu",
+    "targetAudience": "Kids & adults starting Quranic reading",
+    "prerequisites": "None",
+    "objectives": [
+      "Learn Arabic letters and sounds",
+      "Recognize joined forms and vowels",
+      "Pronounce letters correctly from Makharij"
+    ],
+    "benefits": [
+      "Live Qaida sessions with teacher",
+      "Progress monitoring & revision",
+      "Supportive learning pace for kids"
+    ],
+    "image": "https://images.pexels.com/photos/3074209/pexels-photo-3074209.jpeg"
+  },
+  {
+    "id": 2,
+    "title": "Nazra Quran with Tajweed",
+    "description": "Recite the Holy Quran fluently with proper pronunciation and Tajweed rules under expert guidance.",
+    "duration": "16 Weeks",
+    "level": "Beginner to Intermediate",
+    "format": "Live Zoom Classes",
+    "language": "Urdu",
+    "targetAudience": "Children and adults aiming for complete Quran recitation.",
+    "prerequisites": "Basic Qaida knowledge.",
+    "objectives": [
+      "Recite full Quran correctly with fluency.",
+      "Identify and apply Tajweed rules while reading.",
+      "Build consistency and love for Quran recitation."
+    ],
+    "benefits": [
+      "Daily revision & reading sessions",
+      "One-on-one correction & feedback",
+      "Completion certificate"
+    ],
+    "image": "https://images.pexels.com/photos/924824/pexels-photo-924824.jpeg"
+  },
+  {
+    "id": 3,
+    "title": "Masnoon Duas & Namaz",
+    "description": "Learn essential daily Duas and the complete Namaz (Salah) with proper words, meanings, and etiquette.",
+    "duration": "4 Weeks",
+    "level": "All Levels",
+    "format": "Online Sessions",
+    "language": "Urdu",
+    "targetAudience": "Kids, reverts, and anyone wanting to learn correct Islamic practices.",
+    "prerequisites": "None",
+    "objectives": [
+      "Memorize daily Masnoon Duas with meanings.",
+      "Understand the steps and words of Salah.",
+      "Improve focus and mindfulness in worship."
+    ],
+    "benefits": [
+      "Interactive sessions with visuals",
+      "Printable materials for practice",
+      "Dua cards & revision tests"
+    ],
+    "image": "https://images.pexels.com/photos/1079843/pexels-photo-1079843.jpeg"
+  },
+  {
+    "id": 4,
+    "title": "Tajweed-ul-Quran",
+    "description": "Master the essential Tajweed rules and correct your Quranic recitation with precision and spiritual depth.",
+    "duration": "12 Weeks",
+    "level": "Beginner to Intermediate",
+    "format": "Live Online Classes",
+    "language": "Urdu & English",
+    "targetAudience": "Muslims of all ages eager to recite Quran as revealed.",
+    "prerequisites": "Nazra Quran knowledge.",
+    "objectives": [
+      "Understand & apply Tajweed rules (Ikhfa, Idgham, etc.)",
+      "Master articulation points (Makharij)",
+      "Identify and correct common recitation mistakes"
+    ],
+    "benefits": [
+      "Certified instructors with Ijazah",
+      "Weekly assessments & practice homework",
+      "Access to class recordings"
+    ],
+    "image": "https://images.pexels.com/photos/36704/pexels-photo.jpg"
+  },
+  {
+    "id": 5,
+    "title": "Tarjuma Tul Quran",
+    "description": "Understand the Quran by learning the word-by-word Urdu translation and gaining spiritual insight.",
+    "duration": "20 Weeks",
+    "level": "Intermediate",
+    "format": "Zoom Sessions",
+    "language": "Urdu",
+    "targetAudience": "Muslims who want to understand Quran directly.",
+    "prerequisites": "Nazra Quran or basic Arabic reading.",
+    "objectives": [
+      "Learn literal meaning of Quranic verses",
+      "Connect deeply with Allah’s message",
+      "Build habit of reflection (Tadabbur)"
+    ],
+    "benefits": [
+      "Translation explained word-by-word",
+      "Daily reflection (Tafakkur) moments",
+      "Group discussions and live Q&A"
+    ],
+    "image": "https://images.pexels.com/photos/8764997/pexels-photo-8764997.jpeg"
+  },
+  {
+    "id": 6,
+    "title": "Tafsir-ul-Quran",
+    "description": "Explore the divine meanings, context, and lessons of the Quran through in-depth explanation (Tafsir).",
+    "duration": "24 Weeks",
+    "level": "Intermediate to Advanced",
+    "format": "Live Weekly Tafsir Circle",
+    "language": "Urdu",
+    "targetAudience": "Students and adults seeking deep Quranic understanding.",
+    "prerequisites": "Tarjuma Tul Quran or basic understanding of Arabic.",
+    "objectives": [
+      "Understand the context behind Surahs (Asbab-un-Nuzool)",
+      "Reflect on the lessons and values of each verse",
+      "Apply Quranic guidance in daily life"
+    ],
+    "benefits": [
+      "Structured tafsir by expert scholars",
+      "Recorded sessions for revision",
+      "Interactive Q&A for clarification"
+    ],
+    "image": "https://images.pexels.com/photos/669437/pexels-photo-669437.jpeg"
+  },
+  {
+    "id": 7,
+    "title": "Fahm-Ul-Quran",
+    "description": "A holistic course combining translation, tafsir, and spiritual reflection to understand and live the Quran.",
+    "duration": "28 Weeks",
+    "level": "All Levels",
+    "format": "Hybrid (Live + Self-paced)",
+    "language": "Urdu",
+    "targetAudience": "Anyone wishing to connect with the Quran emotionally and intellectually.",
+    "prerequisites": "Basic Quran reading & willingness to reflect.",
+    "objectives": [
+      "Understand the themes of each Surah",
+      "Reflect on moral, social, and spiritual lessons",
+      "Develop love and awe for the Quran"
+    ],
+    "benefits": [
+      "Workbook and journaling prompts",
+      "Spiritual exercises and weekly challenges",
+      "Supportive community & mentor access"
+    ],
+    "image": "https://images.pexels.com/photos/1004014/pexels-photo-1004014.jpeg"
+  }
+]

@@ -1,125 +1,78 @@
-import React from "react";
-import { motion } from "framer-motion";
-
-const fadeInUp = {
-  hidden: { opacity: 0, y: 40 },
-  visible: (i = 1) => ({
-    opacity: 1,
-    y: 0,
-    transition: {
-      delay: i * 0.2,
-      duration: 0.6,
-      ease: "easeOut",
-    },
-  }),
-};
+import React from 'react';
+import { Link } from 'react-router-dom';
+import {
+  Facebook,
+  Instagram,
+  Twitter,
+  Youtube,
+  Linkedin,
+} from 'lucide-react';
 
 const Footer = () => {
   return (
-    <motion.footer
-      className="bg-[#f08622] py-12 text-white"
-      initial="hidden"
-      whileInView="visible"
-      viewport={{ once: true, amount: 0.2 }}
+    <footer
+      className="relative text-white z-10"
+      style={{
+        backgroundImage:
+          'url("https://images.pexels.com/photos/318451/pexels-photo-318451.jpeg")',
+        backgroundSize: 'cover',
+        backgroundPosition: 'center',
+      }}
     >
-      <div className="container mx-auto px-4">
-        <motion.div
-          className="flex flex-col sm:flex-row justify-between gap-8"
-          variants={fadeInUp}
-          custom={0}
-        >
-          {/* Contact Section */}
-          <motion.div
-            className="flex-1 min-w-[200px]"
-            variants={fadeInUp}
-            custom={1}
-          >
-            <h3 className="text-xl font-semibold text-gray-900 mb-4">
-              DEPARTMENT
-            </h3>
-            <div className="flex items-center gap-2 mb-2">
-              <span className="hover:text-gray-100 transition">
-                +92 321 5975150
-              </span>
-            </div>
-            <div className="flex items-center gap-2">
-              <a
-                href="mailto:deenivers@gmail.com"
-                className="hover:text-gray-100 transition"
-              >
-                deenivers@gmail.com
-              </a>
-            </div>
-          </motion.div>
+      {/* Overlay */}
+      <div className="absolute inset-0 bg-gradient-to-t from-slate-900 via-blue-800 to-slate-800 opacity-90"></div>
 
-          {/* Company Links */}
-          <motion.div
-            className="flex-1 min-w-[200px]"
-            variants={fadeInUp}
-            custom={2}
-          >
-            <h3 className="text-xl font-semibold text-gray-900 mb-4">
-              Company
-            </h3>
-            <ul className="space-y-2">
-              <li>
-                <a href="#" className="hover:text-gray-100 transition">
-                  About
-                </a>
-              </li>
-              <li>
-                <a href="#" className="hover:text-gray-100 transition">
-                  Contact
-                </a>
-              </li>
-              <li>
-                <a href="#" className="hover:text-gray-100 transition">
-                  Blogs
-                </a>
-              </li>
-            </ul>
-          </motion.div>
+      <div className="relative max-w-7xl mx-auto px-6 py-16 grid md:grid-cols-3 gap-10 border-t border-slate-700">
+        {/* Left Section */}
+        <div className="space-y-4">
+          <h2 className="text-3xl font-bold text-orange-400">Deeniverse Academy</h2>
+          <p className="text-gray-300 text-sm leading-relaxed">
+            A premier Islamic learning platform dedicated to Quran, Tajweed, and Islamic sciences — delivered with excellence, spirituality, and global accessibility.
+          </p>
+        </div>
 
-          {/* Quick Links */}
-          <motion.div
-            className="flex-1 min-w-[200px]"
-            variants={fadeInUp}
-            custom={3}
-          >
-            <h3 className="text-xl font-semibold text-gray-900 mb-4">
-              Quick Links
-            </h3>
-            <ul className="space-y-2">
-              <li>
-                <a href="#" className="hover:text-gray-100 transition">
-                  Whatsapp Channel
-                </a>
-              </li>
-              <li>
-                <a href="#" className="hover:text-gray-100 transition">
-                  Community links
-                </a>
-              </li>
-              <li>
-                <a href="#" className="hover:text-gray-100 transition">
-                  Registration form
-                </a>
-              </li>
-            </ul>
-          </motion.div>
-        </motion.div>
+        {/* Center Section - Courses */}
+        <div className="space-y-3">
+          <h3 className="text-xl font-semibold text-orange-400">Our Courses</h3>
+          <ul className="text-gray-300 space-y-2">
+            <li><Link to="/courses/1" className="hover:text-orange-400 transition">Basic Qaida with Tajweed</Link></li>
+            <li><Link to="/courses/2" className="hover:text-orange-400 transition">Nazra Quran with Tajweed</Link></li>
+            <li><Link to="/courses/3" className="hover:text-orange-400 transition">Masnoon Duas & Namaz</Link></li>
+            <li><Link to="/courses/4" className="hover:text-orange-400 transition">Tajweed-ul-Quran</Link></li>
+            <li><Link to="/courses/5" className="hover:text-orange-400 transition">Tarjuma Tul Quran</Link></li>
+            <li><Link to="/courses/6" className="hover:text-orange-400 transition">Tafsir-ul-Quran</Link></li>
+            <li><Link to="/courses/7" className="hover:text-orange-400 transition">Fahm-ul-Quran</Link></li>
+          </ul>
+        </div>
 
-        {/* Bottom Address */}
-        <motion.div
-          className="mt-10 pt-6 border-t border -white/20 text-center text-sm"
-          variants={fadeInUp}
-          custom={4}
-        >
-          <p className="text-gray-900 italic">Build by Suffynux</p>
-
-        </motion.div>
+        {/* Right Section - Socials */}
+        <div className="space-y-4">
+          <h3 className="text-xl font-semibold text-orange-400">Connect With Us</h3>
+          <div className="flex gap-4 mt-2">
+            <a href="https://facebook.com" target="_blank" rel="noopener noreferrer">
+              <Facebook className="w-5 h-5 hover:text-orange-400 transition" />
+            </a>
+            <a href="https://instagram.com" target="_blank" rel="noopener noreferrer">
+              <Instagram className="w-5 h-5 hover:text-orange-400 transition" />
+            </a>
+            <a href="https://twitter.com" target="_blank" rel="noopener noreferrer">
+              <Twitter className="w-5 h-5 hover:text-orange-400 transition" />
+            </a>
+            <a href="https://youtube.com" target="_blank" rel="noopener noreferrer">
+              <Youtube className="w-5 h-5 hover:text-orange-400 transition" />
+            </a>
+            <a href="https://linkedin.com" target="_blank" rel="noopener noreferrer">
+              <Linkedin className="w-5 h-5 hover:text-orange-400 transition" />
+            </a>
+          </div>
+        </div>
       </div>
-    </motion.footer>
+
+      {/* Bottom Strip */}
+      <div className="relative text-center py-4 text-sm text-gray-400 border-t border-slate-700">
+        © {new Date().getFullYear()} Deeniverse Academy. All rights reserved.
+      </div>
+    </footer>
   );
 };
 
