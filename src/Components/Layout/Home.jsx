@@ -18,7 +18,6 @@ const Home = () => {
         <LandingPageAboutUs/>    
         <LandingCoures/>
         <FaqSection/>
-        <PrayerTimes/>
         {/* Footer */}
         <Footer />
         </div>
