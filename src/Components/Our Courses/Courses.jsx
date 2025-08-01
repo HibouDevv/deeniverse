@@ -135,7 +135,7 @@ const Courses = () => {
           <div className="flex flex-col sm:flex-row gap-4 justify-center">
             <Link
               to={
-                "https://api.whatsapp.com/send/?phone=923335508011&text&type=phone_number&app_absent=0"
+                "https://api.whatsapp.com/send/?phone=923265566969&text&type=phone_number&app_absent=0"
               }
               className='className="inline-block bg-gradient-to-r from-[#C0A34E] to-[#D8B75A] hover:from-[#D8B75A] hover:to-[#C0A34E] text-[#182F51] font-bold px-8 py-4 rounded-lg shadow-lg hover:shadow-xl transition-all duration-300 transform hover:-translate-y-1"'
             >

@@ -3,6 +3,7 @@ import { motion } from 'framer-motion';
 import Container from '../Layout/Container';
 import AboutImage from '../../assets/images/aboutusImage.svg';
 import Button from '../UI/Button';
+import { Link } from 'react-router-dom';
 
 const LandingPageAboutUs = () => {
   return (
@@ -20,9 +21,11 @@ const LandingPageAboutUs = () => {
           <p className="text-white">
             We provide Quranic education through online courses, making it accessible for national and international students. Join us to deepen your understanding of the Quran from the comfort of your home.
           </p>
+          <Link to={"/about-us"}>
           <Button className={"mt-6"}>
             Learn More
           </Button>
+          </Link>
         </motion.div>
 
         {/* Image Section */}

@@ -38,10 +38,10 @@
 //       icon: '📱',
 //       title: 'WhatsApp',
 //       subtitle: 'Quick Response',
-//       info: '+92 321 5975150',
+//       info: '+92 326 5566969',
 //       description: 'Chat with us for instant support',
 //       action: 'Chat Now',
-//       link: 'https://wa.me/923215975150',
+//       link: 'https://wa.me/923265566969',
 //       color: 'from-green-500 to-green-400'
 //     },
 //     {
@@ -211,7 +211,7 @@
             
 //             <div className="flex flex-col sm:flex-row gap-4 justify-center items-center">
 //               <a
-//                 href="https://wa.me/923215975150?text=Assalamu%20Alaikum!%20I%20would%20like%20to%20learn%20more%20about%20DeeNiverse%20Academy%20courses."
+//                 href="https://wa.me/923265566969?text=Assalamu%20Alaikum!%20I%20would%20like%20to%20learn%20more%20about%20DeeNiverse%20Academy%20courses."
 //                 target="_blank"
 //                 rel="noopener noreferrer"
 //                 className="group bg-gradient-to-r from-green-500 to-green-400 text-white px-8 py-4 rounded-xl font-semibold transform hover:scale-105 hover:-translate-y-1 transition-all duration-300 shadow-lg hover:shadow-green-500/50 flex items-center space-x-3"
@@ -322,10 +322,10 @@ const ContactUs = () => {
       icon: <MessageSquare className="w-8 h-8" />,
       title: 'WhatsApp',
       subtitle: 'Instant Support',
-      info: '+92 321 5975150',
+      info: '+92 326 5566969',
       description: 'Get quick answers to your questions',
       action: 'Chat Now',
-      link: 'https://wa.me/923215975150',
+      link: 'https://wa.me/923265566969',
       bg: 'bg-[#366AB7]/10',
       border: 'border-[#366AB7]/30'
     },
@@ -469,7 +469,7 @@ const ContactUs = () => {
               
               <div className="flex flex-col sm:flex-row gap-4 justify-center">
                 <a
-                  href="https://wa.me/923215975150?text=Assalamu%20Alaikum!%20I%20would%20like%20to%20learn%20more%20about%20your%20courses."
+                  href="https://wa.me/923265566969?text=Assalamu%20Alaikum!%20I%20would%20like%20to%20learn%20more%20about%20your%20courses."
                   target="_blank"
                   rel="noopener noreferrer"
                   className="flex items-center justify-center bg-gradient-to-r from-[#C0A34E] to-[#D8B75A] hover:from-[#D8B75A] hover:to-[#C0A34E] text-[#182F51] font-bold px-8 py-4 rounded-lg shadow-lg hover:shadow-xl transition-all duration-300 transform hover:-translate-y-1"

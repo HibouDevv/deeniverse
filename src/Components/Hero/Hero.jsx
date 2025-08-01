@@ -89,12 +89,12 @@ const Hero = () => {
             )}
 
             <div className="flex flex-col sm:flex-row gap-4 mt-8 w-full sm:w-auto justify-center md:justify-start">
-              <Link to={"https://api.whatsapp.com/send/?phone=923335508011&text&type=phone_number&app_absent=0"} target='_blank'>
+              <Link to={"https://api.whatsapp.com/send/?phone=923265566969&text&type=phone_number&app_absent=0"} target='_blank'>
               <Button className="bg-[#C0A34E] hover:bg-[#C0A34E]/90 text-[#182F51] font-semibold px-8 py-3 rounded-lg shadow-md">
                 Get Started
               </Button>
               </Link>
-              <Link to={"https://api.whatsapp.com/send/?phone=923335508011&text&type=phone_number&app_absent=0"} target='_blank'>
+              <Link to={"https://api.whatsapp.com/send/?phone=923265566969&text&type=phone_number&app_absent=0"} target='_blank'>
               <Button className="bg-transparent border border-[#C0A34E] hover:bg-[#C0A34E]/10 text-white px-8 py-3 rounded-lg">
                 Start Free Trial
               </Button>

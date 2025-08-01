@@ -193,7 +193,7 @@ const CourseDetail = () => {
                   transition={{ delay: 0.4 }}
                 >
                   <motion.a
-                    href="https://chat.whatsapp.com/JHUCTLQx2kA4FX5bEuwd6u"
+                    href="https://api.whatsapp.com/send/?phone=923265566969&text&type=phone_number&app_absent=0"
                     target="_blank"
                     rel="noopener noreferrer"
                     whileHover={{ scale: 1.02 }}

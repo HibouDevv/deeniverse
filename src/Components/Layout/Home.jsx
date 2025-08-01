@@ -9,6 +9,7 @@ import Footer from '../Footer/Footer'
 import FaqSection from '../Faqs/FaqSection'
 import ContactUs from '../Contact Us/Contact'
 import AboutUs from '../About us/AboutUs'
+import PrayerTimes from "../../Components/Prayer/PrayerTimes"
 const Home = () => {
   return (
     <div>
@@ -17,7 +18,7 @@ const Home = () => {
         <LandingPageAboutUs/>    
         <LandingCoures/>
         <FaqSection/>
-
+        <PrayerTimes/>
         {/* Footer */}
         <Footer />
         </div>

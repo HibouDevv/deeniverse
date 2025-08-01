@@ -5,6 +5,7 @@ import ContactUs from './Components/Contact Us/Contact'
 import { createBrowserRouter, RouterProvider } from 'react-router-dom'
 import Courses from './Components/Our Courses/Courses'
 import CourseDetail from './Components/Our Courses/CourseDetail'
+import PrayerTimes from './Components/Prayer/PrayerTimes'
 
 const router = createBrowserRouter([
   {
@@ -26,7 +27,12 @@ const router = createBrowserRouter([
   {
     path: '/courses/:id',
     element: <CourseDetail />,
-},
+  },
+  {
+    path: '/prayer-times',
+    element: <PrayerTimes />,
+  },
+
 ])
 
 const App = () => {

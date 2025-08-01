@@ -24,6 +24,7 @@ const Navbar = () => {
   const navItems = [
     { name: 'Home', path: '/' },
     { name: 'About', path: '/about-us' },
+    { name: 'Prayer Times', path: '/prayer-times' },
     { name: 'Contact', path: '/contact-us' },
   ];
 
@@ -85,7 +86,7 @@ const Navbar = () => {
         </div>
         <div className="flex items-center gap-2 sm:gap-3 flex-shrink-0">
           <a
-            href="https://chat.whatsapp.com/JHUCTLQx2kA4FX5bEuwd6u"
+            href="https://api.whatsapp.com/send/?phone=923265566969&text&type=phone_number&app_absent=0"
             target="_blank"
             rel="noopener noreferrer"
             className="bg-white text-amber-600 font-semibold px-3 py-1.5 sm:px-4 sm:py-2 rounded-lg text-xs sm:text-sm hover:bg-gray-100 transition-colors duration-200 whitespace-nowrap"
@@ -192,7 +193,7 @@ const Navbar = () => {
               transition={{ type: 'spring', stiffness: 300 }}
               className="bg-amber-500 hover:bg-amber-600 text-white-900 font-semibold text-sm md:text-base px-4 md:px-6 py-2 md:py-3 rounded-lg shadow-md hover:shadow-lg focus:outline-none focus:ring-2 focus:ring-amber-500 focus:ring-offset-2 hidden md:block"
             >
-              <Link to="https://api.whatsapp.com/send/?phone=923335508011&text&type=phone_number&app_absent=0" target='_blank'>Get Started</Link>
+              <Link to="https://api.whatsapp.com/send/?phone=923265566969&text&type=phone_number&app_absent=0" target='_blank'>Get Started</Link>
             </motion.button>
 
             <button
