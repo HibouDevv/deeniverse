@@ -68,42 +68,42 @@ const Navbar = () => {
   return (
     <>
       {/* Announcement Banner */}
-      <AnimatePresence>
-        {bannerVisible && (
-          <motion.div
-            initial={{ opacity: 0, y: -50 }}
-            animate={{ opacity: 1, y: 0 }}
-            exit={{ opacity: 0, y: -50 }}
-            transition={{ duration: 0.4 }}
-            className="fixed top-0 left-0 w-full bg-gradient-to-r from-amber-500 to-amber-600 text-white z-50 shadow-md"
+  <AnimatePresence>
+  {bannerVisible && (
+    <motion.div
+      initial={{ opacity: 0, y: -50 }}
+      animate={{ opacity: 1, y: 0 }}
+      exit={{ opacity: 0, y: -50 }}
+      transition={{ duration: 0.4 }}
+      className="fixed top-0 left-0 w-full bg-gradient-to-r from-amber-500 to-amber-600 text-white z-50 shadow-md"
+    >
+      <div className="max-w-7xl mx-auto px-3 sm:px-6 lg:px-8 py-2 flex flex-row items-center justify-between gap-2 sm:gap-4">
+        <div className="flex items-center gap-1 sm:gap-2 flex-1 min-w-0">
+          <span className="text-xs sm:text-sm lg:text-base font-semibold truncate">
+            📖 Join Our Free Tafseer-ul-Quran Course Today!
+          </span>
+        </div>
+        <div className="flex items-center gap-2 sm:gap-3 flex-shrink-0">
+          <a
+            href="https://chat.whatsapp.com/JHUCTLQx2kA4FX5bEuwd6u"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="bg-white text-amber-600 font-semibold px-3 py-1.5 sm:px-4 sm:py-2 rounded-lg text-xs sm:text-sm hover:bg-gray-100 transition-colors duration-200 whitespace-nowrap"
           >
-            <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-3 flex flex-col sm:flex-row items-center justify-between gap-4">
-              <div className="flex items-center gap-2">
-                <span className="text-sm sm:text-base font-semibold">
-                  📖 Join Our Free Tafseer-ul-Quran Course Today!
-                </span>
-              </div>
-              <div className="flex items-center gap-4">
-                <a
-                  href="https://chat.whatsapp.com/JHUCTLQx2kA4FX5bEuwd6u"
-                  target="_blank"
-                  rel="noopener noreferrer"
-                  className="bg-white text-amber-600 font-semibold px-4 py-2 rounded-lg text-sm hover:bg-gray-100 transition-colors duration-200"
-                >
-                  Join Now
-                </a>
-                <button
-                  onClick={() => setBannerVisible(false)}
-                  className="text-white hover:text-gray-200 text-lg focus:outline-none"
-                  aria-label="Close banner"
-                >
-                  ×
-                </button>
-              </div>
-            </div>
-          </motion.div>
-        )}
-      </AnimatePresence>
+            Join Now
+          </a>
+          <button
+            onClick={() => setBannerVisible(false)}
+            className="text-white hover:text-gray-200 text-lg sm:text-xl focus:outline-none flex-shrink-0 p-1"
+            aria-label="Close banner"
+          >
+            ×
+          </button>
+        </div>
+      </div>
+    </motion.div>
+  )}
+</AnimatePresence>
 
       <Container>
         <motion.header
