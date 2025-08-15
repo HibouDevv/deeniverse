@@ -23,9 +23,10 @@ const Navbar = () => {
 
   const navItems = [
     { name: 'Home', path: '/' },
-    { name: 'About', path: '/about-us' },
-    { name: 'Prayer Times', path: '/prayer-times' },
-    { name: 'Contact', path: '/contact-us' },
+  { name: 'About Us', path: '/about-us' },
+  { name: 'Contact Us', path: '/contact-us' },
+  { name: 'Quizzes', path: '/quizzes' },
+  { name: 'Prayer Times', path: '/prayer-times' }
   ];
 
   const courses = [

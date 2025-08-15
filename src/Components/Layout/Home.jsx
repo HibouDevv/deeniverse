@@ -10,6 +10,7 @@ import FaqSection from '../Faqs/FaqSection'
 import ContactUs from '../Contact Us/Contact'
 import AboutUs from '../About us/AboutUs'
 import PrayerTimes from "../../Components/Prayer/PrayerTimes"
+import Quiz from '../Quizes/Quiz'
 const Home = () => {
   return (
     <div>
@@ -19,6 +20,7 @@ const Home = () => {
         <LandingCoures/>
         <FaqSection/>
         {/* Footer */}
+        <Quiz/>
         <Footer />
         </div>
   )

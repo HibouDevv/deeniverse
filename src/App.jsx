@@ -6,6 +6,7 @@ import { createBrowserRouter, RouterProvider } from 'react-router-dom'
 import Courses from './Components/Our Courses/Courses'
 import CourseDetail from './Components/Our Courses/CourseDetail'
 import PrayerTimes from './Components/Prayer/PrayerTimes'
+import Quiz from './Components/Quizes/Quiz'
 
 const router = createBrowserRouter([
   {
@@ -31,6 +32,10 @@ const router = createBrowserRouter([
   {
     path: '/prayer-times',
     element: <PrayerTimes />,
+  },
+  {
+    path: '/quizzes',
+    element: <Quiz />,
   },
 
 ])
